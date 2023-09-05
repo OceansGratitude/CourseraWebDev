@@ -3,6 +3,7 @@ h1 {
 }
 
 .fooditem {
+    box-sizing: border-box;
     border-radius: 5%;
     padding: 10%;
 }
