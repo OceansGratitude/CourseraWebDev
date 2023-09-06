@@ -1,9 +1,43 @@
+* {
+    box-sizing: border-box;
+}
 h1 {
     text-align: center;
+    font-family: 'Playfair Display', serif;
+    color:#87502c;
+    letter-spacing: .3rem;
+    font-size: 175%;
 }
-
+p {
+    font-family: 'Poppins', sans-serif;
+    text-align: justify;
+}
+img{
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+}
 .fooditem {
-    box-sizing: border-box;
-    border-radius: 5%;
-    padding: 10%;
+    position:relative;
+    margin: .3em;
+    border-radius: 10px;
+    padding: 1em;
+    background-color: #d5ccbe5f;
+    box-shadow: -2px 2px 5px #655e555f;
+    border: 1px solid #87502c;
+}
+.name {
+    font-family: 'Poppins', sans-serif;
+    position:absolute;
+    right: -1px;
+    top: 8px;
+    min-width: 130px;
+    border-bottom-left-radius: 10px;
+    font-size: 115%;
+    letter-spacing: .2rem;
+    text-align: center;
+    padding: .3em;
+    background-color: #bfbfbf;
+    box-shadow: -2px 2px 5px #334249;
+    border: 1px solid black;
 }
