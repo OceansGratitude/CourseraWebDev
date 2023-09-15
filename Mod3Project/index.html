@@ -12,26 +12,41 @@
 </head>
 <body>
     <header>
-        <Nav id="header-nav" class="navbar navbar-default">
-            <div class="container">
-                <div class="navbar-header">
-                    <a href="index.html" class="float-start d-none d-md-block">
-                        <div id="logo-img" alt="Logo image"></div> 
-                    </a>
-                    <div class="navbar-brand">
-                        <a href="index.html"><h1>David Chu's Chinese Bistro</h1></a>
-                        <p>
-                            <img src="Images/StarIcon.png" alt="Kosher Certification" height="15px" width="15px">
-                            <span>Kosher Certified</span>
-                        </p>
-                    </div>
-
+        <Nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container"> 
+                <!-- Logo -->
+                <a href="index.html" class="float-start d-none d-md-block"><div id="logo-img" alt="Logo image"></div></a>
+                <!-- Brand -->
+                <div class="navbar-brand">
+                    <a href="index.html"><h1>David Chu's Chinese Bistro</h1></a>
+                    <p><i class="fa-regular fa-star"></i><span> Kosher Certified</span></p>
+                </div>
+                <!-- Navigation -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsable-nav">
+                    <ul id="nav-list" class="navbar-nav me-auto mb-2 mb-lg-0 navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link active center-text" href="menu-categories.html"><i class="fa-solid fa-utensils"></i><br class="d-none d-md-block"> Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link center-text" href="#"><i class="fa-regular fa-address-card"></i><br class="d-none d-md-block"> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link center-text" href="#"><i class="fa-solid fa-award"></i><br class="d-none d-md-block"> Awards</a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block" id="phone">
+                            <a class="nav-link center-text" href="tel:641-793-8122"><!--<i class="fa-solid fa-phone"></i><br class="d-none d-md-block">--><span> 641-793-8122</span></a><div>* We Deliver</div>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </Nav>
     </header>
 
-    <!-- Bootstrap JS -->
+    <!-- JS & Icons -->
     <script src="Bootstrap/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d3f40d8493.js" crossorigin="anonymous"></script>
 </body>
 </html>
