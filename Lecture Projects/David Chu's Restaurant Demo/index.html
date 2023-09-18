@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>David Chu's Bistro</title>
+    <!-- Style Sheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/StyleSheet.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <Nav id="header-nav" class="navbar navbar-expand-lg">
+            <div class="container"> 
+                <!-- Logo -->
+                <a href="index.html" class="float-start d-none d-md-block"><img id="logo-img" class="img-fluid" src="images/LogoResized.png" alt="Logo Image"></a>
+                <!-- Brand -->
+                <div class="navbar-brand float-start">
+                    <a href="index.html"><h1>David Chu's Bistro</h1></a>
+                    <p><i class="fa-regular fa-star"></i><span> Kosher Certified</span></p>
+                </div>
+                <!-- Navigation -->
+                <button class="navbar-toggler float-end" type="button" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-controls="collapsable-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsable-nav">
+                    <ul id="nav-list" class="navbar-nav float-end mb-2 mb-lg-0 navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="menu-categories.html"><i class="fa-solid fa-utensils"></i><br class="d-none d-md-block"> Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-regular fa-address-card"></i><br class="d-none d-md-block"> About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><i class="fa-solid fa-award"></i><br class="d-none d-md-block"> Awards</a>
+                        </li>
+                        <li class="nav-item d-none d-lg-block" id="phone">
+                            <a class="nav-link text-end" href="tel:641-793-8122"><!--<i class="fa-solid fa-phone"></i><br class="d-none d-md-block">--><span> 641-793-8122</span></a><div class="text-end">* We Deliver</div>
+                        </li>
+                    </ul>
+                </div> <!-- #collapsable-nav -->
+            </div> <!-- .container -->
+        </Nav>
+    </header>
+     <!-- Main Content -->
+     <div id="main-content" class="container">
+        <img id="jumbotron" class="img-fluid rounded" src="images/RestaurantLG.jpg" alt="Beautiful interior of the restaurant">
+        <div id="home-tiles" class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="menu-categories.html"><div id="menu-tile"><span>menu</span></div></a>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <a href="single-categories.html"><div id="specials-tile"><span>specials</span></div></a>
+            </div>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <a href="https://maps.app.goo.gl/AxWCfLr4ZXoATPMn8" target="_blank"><div id="map-tile"><span>map</span>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d24975.676338106!2d-97.15017410147873!3d37.63143467160343!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e0!4m0!4m3!3m2!1d37.640568!2d-97.16963659999999!5e0!3m2!1sen!2sus!4v1694891417965!5m2!1sen!2sus" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <section id="hours" class="col-md-4">
+                    <span>Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday: Closed
+                    <hr class="d-flex d-md-none">
+                </section>
+                <section id="address" class="col-md-4">
+                    <span>Address:</span><br>
+                    1234 Fough St<br>
+                    False-nah, WY 12345<br>
+                    <p>* Delivery area within 3-4 miles, with minumum order of $20
+                        plus $3 charge for all deliveries.</p>
+                    <hr class="d-flex d-md-none">
+                </section>
+                <section id="testimonials" class="col-md-4">
+                    <p>"A really cool dining experience that combines a flavors 
+                        from different parts of the world."</p>
+                    <p>"This place makes me feel like a classy artist when I eat there with my friends."</p>    
+                </section>
+            </div> <!-- .row -->
+            <div class="text-center">&copy; Copyright False Restaurant 2023</div>
+        </div> <!-- .containter -->
+    </footer>
+    <!-- JS & Icons -->
+    <script src="bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/d3f40d8493.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
