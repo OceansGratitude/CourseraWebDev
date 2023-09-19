@@ -67,23 +67,18 @@ h3{
     float: none;
     vertical-align: top;
   }
-  
-  .navbar .navbar-collapse {
-    text-align: center;
-  }
-
-
 #header-nav{
     background-color: #d5ccbe5f;
     box-shadow: -2px 2px 5px #655e555f;
     margin-bottom: 2rem;
 }
 #navlist{
-    justify-content: center;
+    margin:auto;
+    justify-content: right;
+    text-align: right;
 }
 .nav-item{
-    justify-content: center;
-    justify-self: center;
+    text-align: right;
     margin:auto;
 }
 .navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus{
