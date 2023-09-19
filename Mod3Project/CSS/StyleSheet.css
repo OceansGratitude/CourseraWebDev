@@ -72,15 +72,6 @@ h3{
     box-shadow: -2px 2px 5px #655e555f;
     margin-bottom: 2rem;
 }
-#navlist{
-    margin:auto;
-    justify-content: right;
-    text-align: right;
-}
-.nav-item{
-    text-align: right;
-    margin:auto;
-}
 .navbar-brand a, .navbar-brand a:hover, .navbar-brand a:focus{
     text-decoration: none;
 }
